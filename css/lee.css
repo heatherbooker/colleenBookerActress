@@ -26,6 +26,22 @@ header {
 	background-color: #EB5368;
 }
 
+.btn-link, span {
+	color: #606dbc;
+}
+
+.title4 {
+	text-align: center;
+}
+
+.footerpriv a {
+	text-transform: none;
+}
+
+.myStory {
+	color: #3F3B3B;
+}
+
 /*begin css for gallery*/
 @media (min-width: 768px) {
 	#filters li a {
