@@ -1,3 +1,23 @@
+.lee-left, .lee-right {
+    display: inline-block;
+    padding: 10px;
+}
+
+.lee-right {
+    position: relative;
+    top: -200px;
+    padding-left: 70px;
+    max-width: 40%;
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+#long-input {
+    width: 550px;
+}
+
 .imageBox
 {
     position: relative;
@@ -18,7 +38,7 @@
     width: 271px;
     height: 181px;
     margin-top: -100px;
-    margin-left: -100px;
+    margin-left: -135px;
     box-sizing: border-box;
     border: 1px solid rgb(102, 102, 102);
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
