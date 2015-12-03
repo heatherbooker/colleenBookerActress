@@ -33,7 +33,7 @@ div, textarea, input {
 .row.headerX {
   padding: 1.5em 2.5em;
   border-bottom: 1px solid #ccc;
-  background: url(../assets-lee/img/eyes-crop.jpg) left -80px;
+  background: url(../assets-lee/img/eyes-crop.jpg) left -40px;
   color: #fff;
 }
 .row.body {
@@ -128,7 +128,9 @@ form label {
   display: block;
   margin: 0 0 0.5em 0;
   color: #4f6fad;
-  font-size: 1em;
+  font-size: 0.9em;
+  font-family: "Lato";
+  text-transform: uppercase;
 }
 form input {
   margin: 0 0 0.5em 0;

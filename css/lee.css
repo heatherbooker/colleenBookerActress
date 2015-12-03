@@ -3,13 +3,11 @@
 }
 
 header {
-	background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 2px,
-  #465298 12px
-);
+	background: url(../img/waffle.png);
+}
+
+.menuheader {
+	background-color: #323335;
 }
 
 .tm_navbar .nav li a:hover, .tm_navbar .nav > li.active > a, .tm_navbar .nav > li.active > a:hover, .nav > .active > a, .tm_navbar .nav > .active > a:hover, .tm_navbar .nav > .active > a:focus {
