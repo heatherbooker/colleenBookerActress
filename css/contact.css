@@ -14,12 +14,15 @@ div, textarea, input {
 }
 
 .containerX {
-  max-width: 510px;
-  min-width: 324px;
+  width: 60%;
   margin: 50px auto 0px;
   background-color: #fff;
   border: 1px solid #cfcfcf;
   border-bottom: 3px solid #ccc;
+}
+
+.row_8 {
+  padding: 23px 0px 82px;
 }
 
 .row {
@@ -41,7 +44,7 @@ div, textarea, input {
   float: right;
 }
 
-h1 {
+.h1X {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   display: inline-block;
@@ -52,11 +55,12 @@ h1 {
   padding: 0 0 0.4em 0;
 }
 
-h3 {
+.h3X {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   margin: 1em 0 0.4em 0;
+  color: #CECACA;
 }
 
 .btn {
@@ -66,7 +70,6 @@ h3 {
   margin: 1.5em 0 0;
   color: #fff;
   border-width: 0 0 0 0;
-  border-bottom: 5px solid;
   text-transform: uppercase;
   background-color: #b3b3b3;
   border-bottom-color: #8c8c8c;
@@ -78,7 +81,6 @@ h3 {
 }
 .btn.btn-submit {
   background-color: #4f6fad;
-  border-bottom-color: #374d78;
 }
 .btn.btn-submit:hover {
   background-color: #5f7db6;
@@ -117,7 +119,7 @@ form ul li .divider {
   width: 100%;
   display: block;
   background-color: #4f6fad;
-  background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+  /*background-image: linear-gradient(to right, #ee9cb4, #4f6fad);*/
 }
 form ul li .req {
   color: #ee9cb4;
@@ -147,6 +149,10 @@ form small {
 }
 
 @media only screen and (max-width: 480px) {
+  .containerX {
+  width: 80%;
+  }
+
   .pull-right {
     float: none;
   }
@@ -170,11 +176,11 @@ form small {
     margin: 1.5em 0 0.5em;
   }
 
-  h1 {
+  .h1X {
     font-size: 2.25em;
   }
 
-  h3 {
+  .h3X {
     font-size: 1.125em;
   }
 
