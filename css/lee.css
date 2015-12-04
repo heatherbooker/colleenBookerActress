@@ -2,7 +2,7 @@
 	margin: 44px auto 40px;
 }
 
-header {
+header, footer {
 	background: url(../img/waffle.png);
 }
 
@@ -30,6 +30,19 @@ header {
 
 .title4 {
 	text-align: center;
+}
+
+.social_icons {
+	margin-left: 20px;
+}
+
+.social_icons > li {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-color: white;
+	border-radius: 2px;
+	border-width: 2px;
+	border-style: solid;
 }
 
 .footerpriv a {
