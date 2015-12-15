@@ -6,6 +6,15 @@ header, footer {
 	background: url(../img/waffle.png);
 }
 
+.byHeather {
+	font-size: 10pt;
+	color: white;
+}
+
+.byHeather:hover {
+	color: #428BCA;
+}
+
 .menuheader {
 	background-color: #323335;
 }
@@ -32,6 +41,25 @@ header, footer {
 	text-align: center;
 }
 
+p {
+	font-size: 17px;
+	line-height: 24px;
+}
+
+h3 {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.likeH2 {
+	font-family: 'Georgia', serif;
+	font-size: 20px;
+	line-height: 24px;
+	color: #474848;
+	margin: 0;
+	padding: 15px 0;
+}
+
 .social_icons {
 	margin-left: 20px;
 }
@@ -53,9 +81,32 @@ header, footer {
 	color: #3F3B3B;
 }
 
+.hiddenLink {
+	color: #939598;
+}
+
+.hiddenLink:hover {
+	color: #606dbc;
+	text-decoration: none;
+}
+
 /*begin css for gallery*/
 @media (min-width: 768px) {
 	#filters li a {
 		font-size: 16px;
 	}
 }
+
+/*css for about-lee*/
+.statsBox {
+	border: solid #A5A5A5 1px;
+	min-height: 200px;
+	width: 400px;
+	/*margin:auto;*/
+	font-family: 'Georgia', serif;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 12px 40px;
+}
+
+/*css for press*/
