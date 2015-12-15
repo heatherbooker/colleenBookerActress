@@ -6,13 +6,13 @@ header, footer {
 	background: url(../img/waffle.png);
 }
 
-.byHeather {
+a.byHeather {
 	font-size: 10pt;
 	color: white;
 }
 
 .byHeather:hover {
-	color: #428BCA;
+	color: #606DBC;
 }
 
 .menuheader {
@@ -33,12 +33,24 @@ header, footer {
 	background-color: #EB5368;
 }
 
-.btn-link, span {
+.btn-link, span:hover {
+	color: #606dbc;
+}
+
+.byHeather:focus {
 	color: #606dbc;
 }
 
 .title4 {
 	text-align: center;
+}
+.title4 a {
+	color: #474848;
+}
+
+.title4 a:hover {
+	text-decoration: none;
+	color: #999595;
 }
 
 p {
@@ -109,4 +121,4 @@ h3 {
 	padding: 12px 40px;
 }
 
-/*css for press*/
+

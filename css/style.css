@@ -609,7 +609,7 @@ header {
 }
 .list2 > li > a:hover {
 	text-decoration: none;
-	color: #eb5368;
+	color: #606DBC;
 	-webkit-transition: all 0.1s ease;
 	transition: all 0.1s ease;
 }
@@ -976,7 +976,7 @@ hr.line2 {
 	transition: all 0.1s ease;
 }
 .btn-link4:hover {
-	color: #eb5368;
+	color: #606DBC;
 	text-decoration: none;
 	-webkit-transition: all 0.1s ease;
 	transition: all 0.1s ease;
@@ -1273,7 +1273,7 @@ address .info p:first-child {
 	color: #adadad;
 }
 .privacy_page a:hover {
-	color: #eb5368;
+	color: #606DBC;
 }
 /*404 page*/
 /*404 page*/
@@ -1385,8 +1385,11 @@ footer {
 	top: 0;
 }
 .social_icons > li a:hover img {
-	position: relative;
-	top: -31px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
 }
 .footerlogo {
 	text-align: center;
@@ -1415,7 +1418,7 @@ footer {
 }
 .footerpriv a:hover {
 	text-decoration: none;
-	color: #eb5368;
+	color: #606DBC;
 }
 /**************** footer end ***************/
 /*----- media queries ------*/
