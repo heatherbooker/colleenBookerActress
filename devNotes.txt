@@ -4,10 +4,16 @@ INDEX
 
 CONTACT
 - does form work?
+
 PRIVACY PAGE
-- yeah doesn't exist lol
+- yeah do that
+
 WORK AND TRAINING
 - want database
 - tds not same width in diff. tables!!?!
 
+GALLERY
+- adds pics in a weird order
+
+MISC
 -footer and header not same colors?
