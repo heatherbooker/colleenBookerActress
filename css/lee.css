@@ -113,7 +113,6 @@ h3 {
 .statsBox {
 	border: solid #A5A5A5 1px;
 	min-height: 200px;
-	/*width: 400px;*/
 	margin:auto;
 	font-family: 'Georgia', serif;
 	font-size: 20px;
@@ -121,8 +120,10 @@ h3 {
 	padding: 12px 40px;
 }
 
-.aboutPic {
+@media (min-width: 768px) {
+	.aboutPic {
 	max-height: 20%;
+	}
 }
 
 /*css for work and training*/
