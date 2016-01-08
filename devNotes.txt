@@ -16,4 +16,5 @@ GALLERY
 - adds pics in a weird order
 
 MISC
--footer and header not same colors?
+- footer and header not same colors?
+- pageup arrow on right side of screen is half visible
