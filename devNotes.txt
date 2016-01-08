@@ -1,6 +1,8 @@
 INDEX
 - add container to reserve space for main images
 - email at bottom right doesnt fit on one line and doesn't link to anything
-- social icons become invisible on scroll over
+- bottom middle links do nothing
 CONTACT
 - does form work?
+PRIVACY PAGE
+- yeah doesn't exist lol
