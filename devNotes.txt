@@ -1,8 +1,13 @@
 INDEX
 - add container to reserve space for main images
 - email at bottom right doesnt fit on one line and doesn't link to anything
-- bottom middle links do nothing
+
 CONTACT
 - does form work?
 PRIVACY PAGE
 - yeah doesn't exist lol
+WORK AND TRAINING
+- want database
+- tds not same width in diff. tables!!?!
+
+-footer and header not same colors?
